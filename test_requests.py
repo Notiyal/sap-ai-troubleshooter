@@ -8,3 +8,5 @@ data = response.json()
 
 print("URL:", data["url"])
 print("Origin:", data["origin"])
+print("Full data:", data)
+print("User Agent:", data["headers"]["User-Agent"])
